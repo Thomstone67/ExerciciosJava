@@ -3,7 +3,7 @@ public class App{
        Scanner sc = new Scanner(System.in);
         
        int num = sc.nextInt();
-       .close();
+       sc.close();
 
        if(num >= 0){
            System.out.println("NAO NEGATIVO");
